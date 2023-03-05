@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+body {
+    background-color:hsl(36, 100%, 99%);
+    margin: auto;
+    width: 80%;
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#menu {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    gap:20px;
+}
+
+ul li {
+    font-size: 18px;
+    display: inline-block;
+    color: hsl(233, 8%, 79%);
+}
+
+#middle {
+    margin: auto;
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+#middleleft {
+    height: 500px;
+    width:70%;
+}
+
+img.web3 {
+    height:250px;
+    width:100%;
+}
+
+#left2 {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#left2left {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#left2left > h1 {
+    font-size: 50px;
+}
+
+#left2right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+ 
+   
+}
+
+#left2right > p {
+    font-size: 14px;
+    letter-spacing: 3px;
+    color:hsl(233, 8%, 79%);
+}
+
+#left2right > button {
+    margin: auto;
+    margin-left: 0px;
+    height: 40px;
+    width:150px;
+    border: none;
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 4px;
+}
+#middleright {
+    height:500px;
+    width:30%;
+    background-color:  hsl(240, 100%, 5%);
+}
+
+#middleright > h1 {
+    margin-left:20px;
+    color: hsl(35, 77%, 62%);
+    font-size: 40px;
+}
+
+#middleright > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+   
+}
+
+#middleright > ul > li {
+    display: block;
+    text-align: left;
+    width: 90%;
+    margin-left: 10px;
+    border-bottom: 2px solid gray;
+   
+    
+}
+
+#middleright > ul > li:nth-child(3) {
+    border-bottom: none;
+}
+
+ #middleright > ul > li > h1 {
+    font-size:20px;
+    font-weight: bold;
+ }
+
+ #middleright > ul > li > p {
+    font-size:12px;
+    letter-spacing: 3px;
+    font-weight: lighter;
+ }
+
+ #subdiv {
+
+    margin: auto;
+    margin-top: 20px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+
+ #subdiv > #one {
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+width: 33%;
+
+
+ }
+
+ #subdiv > #two {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 33%;
+    
+    
+     }
+
+     #subdiv > #three {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 33%;
+        
+        
+         }
+
+         .texts {
+            display: flex;
+            flex-direction: column;
+            justify-content:space-between;
+            align-items:flex-start;
+            padding:0px 20px;
+         }
+
+         .texts > h1 {
+            font-size:26px;
+            color: grey;
+         }
+
+         .texts > h2 {
+            font-size: 14px;
+         }
+
+         .texts > p {
+            font-size: 12px;
+            color: gray;
+         }
+
+         img.smallimg {
+            height:150px;
+            width:150px;
+         }
+
+         div.attribution {
+            margin-top: 30px;
+         }
